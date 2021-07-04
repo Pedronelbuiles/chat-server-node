@@ -1,5 +1,6 @@
 # RESTserver en Node
 
-Esta es un servidor REST básico, listo para clonar e instalar:
+Esta es un servidor de chat básico, listo para clonar e instalar:
  * Para instalar usar el comando ´´´npm install´´´
+ * Tiene un front muy básico
  
