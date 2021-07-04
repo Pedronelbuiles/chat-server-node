@@ -1,0 +1,25 @@
+_____________________________
+|                           |            ___________________________
+| Usuarios                  |            |                         |
+|___________________________|            | Categorias              |
+|                           |            |_________________________|
+| _id: automatico           | ---------> |                         |
+| nombre: string            |            | _id: automatico         |
+| email: string             |            | nombre: string          |
+| password: script - crypt  |            | usuario: objectid - key |
+| google: boolean           |            |_________________________|
+| role: string              |
+| img: string               |            _____________________________
+| estado: boolean           | ---------> |                           |
+|___________________________|            | Productos                 |
+                                         |___________________________|
+                                         |                           |
+                                         | _id: automatico           |
+                                         | nombre: string            |
+                                         | precioUni: number         |
+                                         | categoria: objectid - key |
+                                         | disponible: boolean       |
+                                         | usuario: objectid - key   |
+                                         |___________________________|
+
+Nombre de la Base de datos: Super-Cafe
